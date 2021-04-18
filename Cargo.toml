@@ -1,0 +1,17 @@
+[package]
+name = "htu2xd"
+version = "0.1.0"
+authors = ["Sam Crow <scrow@eng.ucsd.edu>"]
+edition = "2018"
+description = "Driver for the TE Connectivity Measurement Specialties HTU20D and HTU21D series I2C temperature and humidity sensors"
+repository = "https://github.com/samcrow/htu2xd"
+license = "0BSD"
+categories = ["embedded", "hardware-support", "no-std"]
+keywords = ["embedded-hal-driver"]
+
+[dependencies]
+embedded-hal = "0.2.4"
+nb = "1.0.0"
+
+[dev-dependencies]
+embedded-hal-mock = "0.7.2"
